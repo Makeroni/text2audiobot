@@ -24,7 +24,7 @@ def send_audio(cid, audio):
     bot.send_audio(cid, audio)
 
 def reply_to(message, text):
-    bot.reply_to(cid, text)
+    bot.reply_to(message, text)
 
 def touch(fname):
     if os.path.exists(fname):
