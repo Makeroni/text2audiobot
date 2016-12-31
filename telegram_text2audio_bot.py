@@ -13,7 +13,7 @@ from datetime import datetime
 import requests.packages.urllib3
 requests.packages.urllib3.disable_warnings()
 
-TOKEN = "272848617:AAGEt4c8cVbsxAvGMe12wv1fEEDOX_RGmGo"
+TOKEN = open(os.path.realpath('..') + "/tokens_telegram_bots/token_text2audio_bot.txt", 'rb').read().rstrip('\n')
 
 BASE_PATH = "/media/HDD2/telegram_bot"
 
